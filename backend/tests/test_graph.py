@@ -6,7 +6,7 @@ result = graph.invoke(
     {
         "crisis_description": "A ransomware attack has encrypted company servers.",
         "stakeholders": [],
-        "recommendations": []
+        "recommendations": [],
     }
 )
 

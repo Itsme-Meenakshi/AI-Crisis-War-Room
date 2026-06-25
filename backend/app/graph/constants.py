@@ -1,0 +1,8 @@
+CLASSIFIER = "classifier"
+RAG = "rag"
+BUSINESS = "business"
+LEGAL = "legal"
+OPERATIONS = "operations"
+PR = "pr"
+AGGREGATOR = "aggregator"
+SUMMARY = "summary"

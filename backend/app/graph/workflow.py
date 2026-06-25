@@ -1,4 +1,4 @@
-from langgraph.graph import StateGraph, END # type: ignore
+from langgraph.graph import StateGraph, START, END # type: ignore
 
 from app.graph.state import CrisisState
 
@@ -14,34 +14,37 @@ from app.agents.executive_summary import executive_summary_agent
 
 def build_graph():
 
-    workflow = StateGraph(CrisisState)
+    graph = StateGraph(CrisisState)
 
-    # Nodes
-    workflow.add_node("classifier", classifier_agent)
-    workflow.add_node("rag", rag_agent)
+    graph.add_node("classifier", classifier_agent)
+    graph.add_node("rag", rag_agent)
 
-    workflow.add_node("business", business_agent)
-    workflow.add_node("legal", legal_agent)
-    workflow.add_node("operations", operations_agent)
-    workflow.add_node("pr", pr_agent)
+    graph.add_node("business", business_agent)
+    graph.add_node("legal", legal_agent)
+    graph.add_node("operations", operations_agent)
+    graph.add_node("pr", pr_agent)
 
-    workflow.add_node("aggregator", aggregator_agent)
-    workflow.add_node("summary", executive_summary_agent)
+    graph.add_node("aggregator", aggregator_agent)
+    graph.add_node("summary", executive_summary_agent)
 
-    # Entry Point
-    workflow.set_entry_point("classifier")
+    graph.add_edge(START, "classifier")
 
-    # Flow
-    workflow.add_edge("classifier", "rag")
+    graph.add_edge("classifier", "rag")
 
-    workflow.add_edge("rag", "business")
-    workflow.add_edge("business", "legal")
-    workflow.add_edge("legal", "operations")
-    workflow.add_edge("operations", "pr")
-    workflow.add_edge("pr", "aggregator")
+    # Fan-out
+    graph.add_edge("rag", "business")
+    graph.add_edge("rag", "legal")
+    graph.add_edge("rag", "operations")
+    graph.add_edge("rag", "pr")
 
-    workflow.add_edge("aggregator", "summary")
+    # Fan-in
+    graph.add_edge("business", "aggregator")
+    graph.add_edge("legal", "aggregator")
+    graph.add_edge("operations", "aggregator")
+    graph.add_edge("pr", "aggregator")
 
-    workflow.add_edge("summary", END)
+    graph.add_edge("aggregator", "summary")
 
-    return workflow.compile()
+    graph.add_edge("summary", END)
+
+    return graph.compile()

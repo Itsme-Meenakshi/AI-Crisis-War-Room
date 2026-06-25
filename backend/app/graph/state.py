@@ -1,27 +1,42 @@
-from typing import TypedDict, List, Optional
+from typing import Annotated, Optional
+from typing_extensions import TypedDict
+
+from operator import add
 
 
 class CrisisState(TypedDict):
-    # Input
+    # ======================
+    # User Input
+    # ======================
     crisis_description: str
 
+    # ======================
     # Classification
+    # ======================
     crisis_type: Optional[str]
     severity: Optional[str]
-    stakeholders: List[str]
+    stakeholders: Annotated[list[str], add]
 
+    # ======================
     # RAG
+    # ======================
     rag_context: Optional[str]
 
+    # ======================
     # Agent Outputs
+    # ======================
     business_analysis: Optional[str]
     legal_analysis: Optional[str]
     operations_analysis: Optional[str]
     pr_analysis: Optional[str]
 
-    # Final Decision
+    # ======================
+    # Aggregated Results
+    # ======================
     overall_risk: Optional[str]
-    recommendations: List[str]
+    recommendations: Annotated[list[str], add]
 
-    # Final Report
+    # ======================
+    # Final Output
+    # ======================
     executive_summary: Optional[str]
