@@ -2,15 +2,15 @@ from typing import TypedDict, List, Optional
 
 
 class CrisisState(TypedDict):
-    # User Input
+    # Input
     crisis_description: str
 
-    # Classification Output
+    # Classification
     crisis_type: Optional[str]
     severity: Optional[str]
     stakeholders: List[str]
 
-    # RAG Output
+    # RAG
     rag_context: Optional[str]
 
     # Agent Outputs
@@ -19,9 +19,9 @@ class CrisisState(TypedDict):
     operations_analysis: Optional[str]
     pr_analysis: Optional[str]
 
-    # Aggregator Output
+    # Final Decision
     overall_risk: Optional[str]
     recommendations: List[str]
 
-    # Final Output
+    # Final Report
     executive_summary: Optional[str]
