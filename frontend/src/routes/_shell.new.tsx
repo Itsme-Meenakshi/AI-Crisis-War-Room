@@ -33,15 +33,41 @@ function NewCrisis() {
   async function submit(e: React.FormEvent) {
     e.preventDefault();
     setSubmitting(true);
-    await new Promise((r) => setTimeout(r, 1100));
-    const analysis = analyzeCrisis({
-      title,
-      description: desc,
-      files: files.map((f) => ({ name: f.name, size: f.size })),
-    });
-    const all = loadCrises();
-    saveCrises([analysis, ...all]);
-    navigate({ to: "/analysis/$id", params: { id: analysis.id } });
+    try {
+      const response = await fetch("http://localhost:8000/api/analyze", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          title,
+          description: desc,
+          files: files.map((f) => ({ name: f.name, size: f.size })),
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Server returned error: ${response.statusText}`);
+      }
+
+      const analysis = await response.json();
+      const all = loadCrises();
+      saveCrises([analysis, ...all]);
+      navigate({ to: "/analysis/$id", params: { id: analysis.id } });
+    } catch (err) {
+      console.error("Failed to run AI analysis: ", err);
+      // Fallback to client-side simulation if server is unreachable or errors
+      const analysis = analyzeCrisis({
+        title,
+        description: desc,
+        files: files.map((f) => ({ name: f.name, size: f.size })),
+      });
+      const all = loadCrises();
+      saveCrises([analysis, ...all]);
+      navigate({ to: "/analysis/$id", params: { id: analysis.id } });
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   return (

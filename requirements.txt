@@ -29,3 +29,5 @@ httpx
 loguru
 
 pytest
+langchain-google-genai
+pydantic-settings
