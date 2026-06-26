@@ -1,0 +1,1 @@
+Ransomware attacks encrypt organizational data and demand payment for decryption. Immediate response includes isolating infected systems, preserving evidence, notifying stakeholders, and initiating recovery procedures.

@@ -1,0 +1,1 @@
+A data breach occurs when sensitive information is exposed. Organizations should identify affected users, assess the scope of the breach, notify regulators if required, and strengthen security controls.
