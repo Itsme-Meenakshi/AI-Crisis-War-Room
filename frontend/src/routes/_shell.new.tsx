@@ -24,6 +24,7 @@ function NewCrisis() {
   const [scope, setScope] = useState("Regional");
   const [files, setFiles] = useState<File[]>([]);
   const [submitting, setSubmitting] = useState(false);
+  const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
   function onFiles(list: FileList | null) {
     if (!list) return;
@@ -33,12 +34,11 @@ function NewCrisis() {
   async function submit(e: React.FormEvent) {
     e.preventDefault();
     setSubmitting(true);
+    setErrorMsg(null);
     try {
       const response = await fetch("http://localhost:8000/api/analyze", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           title,
           description: desc,
@@ -47,24 +47,40 @@ function NewCrisis() {
       });
 
       if (!response.ok) {
-        throw new Error(`Server returned error: ${response.statusText}`);
+        const errData = await response.json().catch(() => ({}));
+        const detail = errData?.detail ?? response.statusText;
+        throw new Error(detail);
       }
 
       const analysis = await response.json();
-      const all = loadCrises();
+      // loadCrises is async — must await it
+      const all = await loadCrises();
       saveCrises([analysis, ...all]);
       navigate({ to: "/analysis/$id", params: { id: analysis.id } });
-    } catch (err) {
-      console.error("Failed to run AI analysis: ", err);
-      // Fallback to client-side simulation if server is unreachable or errors
-      const analysis = analyzeCrisis({
-        title,
-        description: desc,
-        files: files.map((f) => ({ name: f.name, size: f.size })),
-      });
-      const all = loadCrises();
-      saveCrises([analysis, ...all]);
-      navigate({ to: "/analysis/$id", params: { id: analysis.id } });
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : String(err);
+      console.error("Failed to run AI analysis:", msg);
+
+      // Only fall back to simulation for network/connection errors
+      const isNetworkErr = msg.toLowerCase().includes("failed to fetch") ||
+        msg.toLowerCase().includes("network") ||
+        msg.toLowerCase().includes("timeout");
+
+      if (isNetworkErr) {
+        const analysis = analyzeCrisis({
+          title,
+          description: desc,
+          files: files.map((f) => ({ name: f.name, size: f.size })),
+        });
+        const all = await loadCrises();
+        saveCrises([analysis, ...all]);
+        navigate({ to: "/analysis/$id", params: { id: analysis.id } });
+      } else {
+        // Surface backend errors directly so user can see what's wrong
+        setErrorMsg(msg);
+        setSubmitting(false);
+        return;
+      }
     } finally {
       setSubmitting(false);
     }
@@ -177,6 +193,12 @@ function NewCrisis() {
           )}
         </div>
 
+        {errorMsg && (
+          <div className="rounded-md border border-destructive/40 bg-destructive/10 px-4 py-3 text-sm text-destructive">
+            <span className="font-semibold">Analysis failed: </span>{errorMsg}
+          </div>
+        )}
+
         <div className="flex items-center justify-end gap-2">
           <Button type="button" variant="ghost" onClick={() => navigate({ to: "/dashboard" })}>
             Cancel
@@ -192,6 +214,7 @@ function NewCrisis() {
               <><Siren className="mr-2 h-4 w-4" /> Run AI analysis</>
             )}
           </Button>
+
         </div>
       </form>
     </div>

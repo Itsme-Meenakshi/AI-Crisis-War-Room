@@ -1,0 +1,4 @@
+Title: Playbook Document 063: PR_Reputation Guide
+Category: PR_Reputation
+Document ID: doc_063
+Content: Product Safety Recall procedure: Identify batch numbers, publish recall warning page, notify distributors, establish refund portal.

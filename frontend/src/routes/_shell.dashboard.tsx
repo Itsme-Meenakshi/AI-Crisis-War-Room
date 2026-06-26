@@ -12,7 +12,9 @@ export const Route = createFileRoute("/_shell/dashboard")({
 
 function Dashboard() {
   const [crises, setCrises] = useState<CrisisAnalysis[]>([]);
-  useEffect(() => setCrises(loadCrises()), []);
+  useEffect(() => {
+    loadCrises().then(setCrises);
+  }, []);
 
   const active = crises.filter((c) => c.status === "active");
   const avgSeverity = Math.round(

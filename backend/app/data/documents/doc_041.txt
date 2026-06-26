@@ -1,0 +1,4 @@
+Title: Playbook Document 041: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_041
+Content: DNS Resolution Failure playbook: Switch to secondary provider, flush local DNS caches, verify zone files, monitor TTL expiration cycles.

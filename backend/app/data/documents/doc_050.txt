@@ -1,0 +1,4 @@
+Title: Playbook Document 050: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_050
+Content: Load Balancer Crash response: Re-route traffic to secondary load balancer, check load balancer health checks, review active connection count.

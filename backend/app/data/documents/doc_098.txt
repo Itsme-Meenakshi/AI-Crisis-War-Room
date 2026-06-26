@@ -1,0 +1,4 @@
+Title: Playbook Document 098: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_098
+Content: Evidence Preservation standard: Write MD5 hashes of log files, create disk sector images, maintain chain of custody.

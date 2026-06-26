@@ -1,0 +1,545 @@
+[
+  {
+    "id": "c_demo1",
+    "title": "Customer data exposure \u2014 analytics vendor",
+    "description": "Third-party analytics vendor reported unauthorized access affecting an estimated 18k customer records.",
+    "createdAt": "2026-06-26T13:11:13.202Z",
+    "status": "active",
+    "severity": 82,
+    "category": "Cybersecurity",
+    "attachments": [],
+    "stakeholders": [
+      {
+        "name": "Customers",
+        "impact": 88,
+        "sentiment": "negative"
+      },
+      {
+        "name": "Regulators",
+        "impact": 76,
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Investors",
+        "impact": 64,
+        "sentiment": "negative"
+      },
+      {
+        "name": "Employees",
+        "impact": 42,
+        "sentiment": "neutral"
+      }
+    ],
+    "risks": [
+      {
+        "category": "Financial",
+        "likelihood": 72,
+        "impact": 78
+      },
+      {
+        "category": "Reputation",
+        "likelihood": 86,
+        "impact": 82
+      },
+      {
+        "category": "Legal",
+        "likelihood": 80,
+        "impact": 84
+      },
+      {
+        "category": "Operational",
+        "likelihood": 55,
+        "impact": 60
+      },
+      {
+        "category": "Compliance",
+        "likelihood": 78,
+        "impact": 80
+      }
+    ],
+    "perspectives": [
+      {
+        "perspective": "Business",
+        "summary": "Short-term revenue exposure is moderate. Prioritize customer retention messaging and protect top-100 accounts.",
+        "recommendations": [
+          "Brief executive team within 1 hour",
+          "Freeze non-critical marketing campaigns",
+          "Activate retention task force for tier-1 accounts"
+        ]
+      },
+      {
+        "perspective": "PR",
+        "summary": "Public sentiment is trending negative. A factual, empathetic statement within the next 2 hours is critical to control narrative.",
+        "recommendations": [
+          "Publish holding statement on owned channels",
+          "Brief key journalists with verified facts",
+          "Monitor sentiment hourly across social channels"
+        ]
+      },
+      {
+        "perspective": "Legal",
+        "summary": "Disclosure obligations may apply. Preserve evidence, restrict internal commentary, and prepare regulator notifications.",
+        "recommendations": [
+          "Issue litigation hold to all involved teams",
+          "Engage outside counsel on disclosure timing",
+          "Draft regulator notification template"
+        ]
+      },
+      {
+        "perspective": "Operations",
+        "summary": "Containment is the priority. Isolate affected systems and stand up an incident command with 30-min checkpoints.",
+        "recommendations": [
+          "Activate incident command structure",
+          "Isolate affected systems / facilities",
+          "Establish 30-min status cadence"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "time": "0-1h",
+        "title": "Activate war room & assign incident commander",
+        "owner": "Operations",
+        "priority": "P0"
+      },
+      {
+        "time": "0-2h",
+        "title": "Publish holding statement to customers & media",
+        "owner": "PR",
+        "priority": "P0"
+      },
+      {
+        "time": "1-3h",
+        "title": "Issue litigation hold & assess disclosure duties",
+        "owner": "Legal",
+        "priority": "P0"
+      },
+      {
+        "time": "2-6h",
+        "title": "Brief board and top-100 customers",
+        "owner": "Business",
+        "priority": "P1"
+      }
+    ]
+  },
+  {
+    "id": "c_demo2",
+    "title": "Manufacturing line halt \u2014 Plant 4",
+    "description": "Unplanned shutdown of Line B affecting shipment SLAs for the Northeast region.",
+    "createdAt": "2026-06-25T17:11:13.202Z",
+    "status": "monitoring",
+    "severity": 58,
+    "category": "Operational",
+    "attachments": [],
+    "stakeholders": [
+      {
+        "name": "Customers",
+        "impact": 65,
+        "sentiment": "negative"
+      },
+      {
+        "name": "Employees",
+        "impact": 40,
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Partners",
+        "impact": 55,
+        "sentiment": "neutral"
+      }
+    ],
+    "risks": [
+      {
+        "category": "Financial",
+        "likelihood": 60,
+        "impact": 50
+      },
+      {
+        "category": "Reputation",
+        "likelihood": 40,
+        "impact": 45
+      },
+      {
+        "category": "Legal",
+        "likelihood": 30,
+        "impact": 20
+      },
+      {
+        "category": "Operational",
+        "likelihood": 85,
+        "impact": 70
+      },
+      {
+        "category": "Compliance",
+        "likelihood": 25,
+        "impact": 30
+      }
+    ],
+    "perspectives": [
+      {
+        "perspective": "Operations",
+        "summary": "Line B mechanical failure has halted manufacturing. Assess physical repairs and logistics rerouting options.",
+        "recommendations": [
+          "Deploy maintenance engineering team immediately",
+          "Audit spare parts stock levels",
+          "Initiate line failover routing configurations"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "time": "0-2h",
+        "title": "Inspect Line B physical mechanical failures",
+        "owner": "Operations",
+        "priority": "P0"
+      },
+      {
+        "time": "2-6h",
+        "title": "Re-route shipment backlogs to Plant 2",
+        "owner": "Business",
+        "priority": "P1"
+      }
+    ]
+  },
+  {
+    "id": "c_demo3",
+    "title": "Executive social media controversy",
+    "description": "Public statement by SVP gaining negative traction; trending in two markets.",
+    "createdAt": "2026-06-23T21:11:13.202Z",
+    "status": "resolved",
+    "severity": 44,
+    "category": "Reputation",
+    "attachments": [],
+    "stakeholders": [
+      {
+        "name": "Customers",
+        "impact": 45,
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Media",
+        "impact": 60,
+        "sentiment": "negative"
+      },
+      {
+        "name": "Employees",
+        "impact": 35,
+        "sentiment": "neutral"
+      }
+    ],
+    "risks": [
+      {
+        "category": "Financial",
+        "likelihood": 30,
+        "impact": 25
+      },
+      {
+        "category": "Reputation",
+        "likelihood": 70,
+        "impact": 60
+      },
+      {
+        "category": "Legal",
+        "likelihood": 20,
+        "impact": 15
+      },
+      {
+        "category": "Operational",
+        "likelihood": 10,
+        "impact": 10
+      },
+      {
+        "category": "Compliance",
+        "likelihood": 10,
+        "impact": 10
+      }
+    ],
+    "perspectives": [
+      {
+        "perspective": "PR",
+        "summary": "Controversy is resolved after executive issued a public apology and deleted the post.",
+        "recommendations": [
+          "Publish official corporate distancing response",
+          "Conduct employee training on media conduct rules"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "time": "0-1h",
+        "title": "Delete post and issue personal apology",
+        "owner": "PR",
+        "priority": "P0"
+      },
+      {
+        "time": "6-12h",
+        "title": "Brief internal staff on media policies",
+        "owner": "Business",
+        "priority": "P2"
+      }
+    ]
+  },
+  {
+    "id": "c_0ac0e5f",
+    "title": "Ransomware Attack on Customer Service Infrastructure",
+    "description": "At approximately 8:30 AM, multiple employees reported being unable to access internal systems. Investigation revealed that company servers have been encrypted by ransomware, causing the customer portal and payment services to become unavailable. Initial analysis suggests the attack originated from a phishing email opened by an employee. Customer data may have been accessed, but the extent of the breach is currently unknown. The IT team has isolated affected servers, disconnected critical systems from the network, and initiated incident response procedures. Customers are reporting service disruptions across multiple regions, and senior management has requested an immediate risk assessment and recovery plan.",
+    "createdAt": "2026-06-26T19:50:46.606Z",
+    "status": "active",
+    "severity": 95,
+    "category": "Cybersecurity",
+    "stakeholders": [
+      {
+        "name": "Customers",
+        "impact": 75,
+        "sentiment": "negative"
+      },
+      {
+        "name": "Employees",
+        "impact": 75,
+        "sentiment": "negative"
+      },
+      {
+        "name": "Senior Management",
+        "impact": 75,
+        "sentiment": "negative"
+      },
+      {
+        "name": "IT Team",
+        "impact": 75,
+        "sentiment": "negative"
+      },
+      {
+        "name": "Regulators",
+        "impact": 75,
+        "sentiment": "negative"
+      }
+    ],
+    "risks": [
+      {
+        "category": "Financial",
+        "likelihood": 75,
+        "impact": 70
+      },
+      {
+        "category": "Reputation",
+        "likelihood": 85,
+        "impact": 80
+      },
+      {
+        "category": "Legal",
+        "likelihood": 60,
+        "impact": 75
+      },
+      {
+        "category": "Operational",
+        "likelihood": 65,
+        "impact": 60
+      },
+      {
+        "category": "Compliance",
+        "likelihood": 50,
+        "impact": 70
+      }
+    ],
+    "perspectives": [
+      {
+        "perspective": "Business",
+        "summary": "This ransomware attack presents severe financial and revenue exposure due to the unavailable customer portal and payment services, compounded by potential customer churn and significant SLA penalties from widespread service disruptions. Immediate business continuity steps must prioritize isolating affected systems, verifying data backups, and preparing for decryption while simultaneously assessing potential customer data access and communicating transparently with impacted customers.",
+        "recommendations": [
+          "Brief the executive leadership team within 1 hour",
+          "Assess financial exposure from contract SLAs",
+          "Establish customer retention communications"
+        ]
+      },
+      {
+        "perspective": "PR",
+        "summary": "This ransomware attack presents a significant reputational risk due to service disruption and potential customer data compromise, demanding transparent, empathetic communication focused on problem resolution and data security. Public messaging will prioritize acknowledging the service outage, assuring customers of ongoing efforts to restore services and investigate potential data access, and explaining steps taken to protect their information. Holding statements will confirm the technical incident, express regret for inconvenience, and direct inquiries to official channels, while spokesperson briefings will provide controlled updates on restoration progress and reiterate our commitment to security. We will continuously monitor traditional and social media for customer sentiment, misinformation, and escalating concerns to adapt our communication strategy in real-time.",
+        "recommendations": [
+          "Publish verified holding statement to media channels",
+          "Brief customer-facing staff on talking points",
+          "Monitor public sentiment across news and social media"
+        ]
+      },
+      {
+        "perspective": "Legal",
+        "summary": "The ransomware attack on customer service infrastructure likely entails regulatory disclosure obligations under GDPR and potentially other privacy laws if customer data was accessed, alongside contractual liabilities for service disruption to customers which could lead to lawsuits. Immediate steps include implementing a comprehensive legal hold on all relevant data and communications, and restricting internal and external communications to designated spokespersons.",
+        "recommendations": [
+          "Issue a internal litigation/evidence hold notice",
+          "Engage outside legal counsel for regulatory advice",
+          "Draft disclosure documentation templates"
+        ]
+      },
+      {
+        "perspective": "Operations",
+        "summary": "Our immediate operational focus is containing the ransomware by isolating affected hosts and blocking SMB traffic, while concurrently investigating the phishing origin to identify the root cause, possibly leading to a broader credential stuffing review. Restoration hinges on verifying backup integrity and establishing an operations checkpoint for a controlled recovery, with a concurrent assessment of potential customer data exposure requiring a vendor data exposure review if third-party systems were involved.",
+        "recommendations": [
+          "Activate technical incident command post",
+          "Isolate affected servers and networks",
+          "Verify backup integrity and data restore pipelines"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "time": "0-1h",
+        "title": "Activate war room & assign roles",
+        "owner": "Operations",
+        "priority": "P0"
+      },
+      {
+        "time": "0-2h",
+        "title": "Issue public holding statement",
+        "owner": "PR",
+        "priority": "P0"
+      },
+      {
+        "time": "1-3h",
+        "title": "Issue litigation hold & restrict communication",
+        "owner": "Legal",
+        "priority": "P0"
+      },
+      {
+        "time": "2-6h",
+        "title": "Assess customer contract and SLA exposure",
+        "owner": "Business",
+        "priority": "P1"
+      },
+      {
+        "time": "6-24h",
+        "title": "Initiate system restoration from backups",
+        "owner": "Operations",
+        "priority": "P1"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": "c_13f6fca",
+    "title": "Database Server Leak",
+    "description": "Our user passwords database has been compromised and posted online.",
+    "createdAt": "2026-06-26T19:52:02.005Z",
+    "status": "active",
+    "severity": 95,
+    "category": "Cybersecurity",
+    "stakeholders": [
+      {
+        "name": "Customers",
+        "impact": 75,
+        "sentiment": "negative"
+      },
+      {
+        "name": "Regulators",
+        "impact": 75,
+        "sentiment": "negative"
+      },
+      {
+        "name": "Legal Team",
+        "impact": 75,
+        "sentiment": "negative"
+      },
+      {
+        "name": "PR Team",
+        "impact": 75,
+        "sentiment": "negative"
+      }
+    ],
+    "risks": [
+      {
+        "category": "Financial",
+        "likelihood": 75,
+        "impact": 70
+      },
+      {
+        "category": "Reputation",
+        "likelihood": 85,
+        "impact": 80
+      },
+      {
+        "category": "Legal",
+        "likelihood": 60,
+        "impact": 75
+      },
+      {
+        "category": "Operational",
+        "likelihood": 65,
+        "impact": 60
+      },
+      {
+        "category": "Compliance",
+        "likelihood": 50,
+        "impact": 70
+      }
+    ],
+    "perspectives": [
+      {
+        "perspective": "Business",
+        "summary": "Financial and revenue exposure is high due to potential legal fines, loss of customer trust impacting future sales, and costs associated with mitigating the breach. Significant customer churn is anticipated from the data exposure, leading to missed SLAs and potential contractual penalties. Immediate business continuity steps involve a forced password reset for all users, updating the password hashing algorithm, and crafting a client warning notification to manage communication.",
+        "recommendations": [
+          "Brief the executive leadership team within 1 hour",
+          "Assess financial exposure from contract SLAs",
+          "Establish customer retention communications"
+        ]
+      },
+      {
+        "perspective": "PR",
+        "summary": "This is a critical data breach impacting customer trust and security directly. Public messaging must immediately inform users of the breach and the mandatory password reset, emphasizing enhanced security measures like the bcrypt update and ongoing monitoring to regain confidence. Holding statements should acknowledge the incident's seriousness, outline immediate corrective actions, and assure a thorough investigation, with the CISO or CEO as the primary spokesperson. We need immediate, intensive sentiment monitoring across all social platforms, news outlets, and forums to track public reaction, identify misinformation, and address customer concerns proactively.",
+        "recommendations": [
+          "Publish verified holding statement to media channels",
+          "Brief customer-facing staff on talking points",
+          "Monitor public sentiment across news and social media"
+        ]
+      },
+      {
+        "perspective": "Legal",
+        "summary": "Given the Database Server Leak and public exposure of user passwords, there is an immediate regulatory obligation under GDPR and similar data protection laws to notify affected users and supervisory authorities without undue delay due to the personal data breach. Contractual liabilities are high, exposing us to potential class-action lawsuits from users whose data was compromised and business partners impacted by the breach. We must immediately implement a legal hold to preserve all potentially relevant data and restrict all internal and external communications to only authorized personnel to prevent further disclosures or inconsistent statements.",
+        "recommendations": [
+          "Issue a internal litigation/evidence hold notice",
+          "Engage outside legal counsel for regulatory advice",
+          "Draft disclosure documentation templates"
+        ]
+      },
+      {
+        "perspective": "Operations",
+        "summary": "Technical containment requires immediate full password resets for all users, implementing bcrypt for improved hashing, and blocking any identified automated traffic attempting credential stuffing, followed by revoking all server SSH keys and a thorough system image reinstallation. Root-cause identification must analyze server authentication logs and audit all administrative access routes to pinpoint the initial breach vector. Restoration milestones include confirming full system integrity post-reinstallation, verifying successful password resets for all users, and validating backup integrity before full operational restoration.",
+        "recommendations": [
+          "Activate technical incident command post",
+          "Isolate affected servers and networks",
+          "Verify backup integrity and data restore pipelines"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "time": "0-1h",
+        "title": "Activate war room & assign roles",
+        "owner": "Operations",
+        "priority": "P0"
+      },
+      {
+        "time": "0-2h",
+        "title": "Issue public holding statement",
+        "owner": "PR",
+        "priority": "P0"
+      },
+      {
+        "time": "1-3h",
+        "title": "Issue litigation hold & restrict communication",
+        "owner": "Legal",
+        "priority": "P0"
+      },
+      {
+        "time": "2-6h",
+        "title": "Assess customer contract and SLA exposure",
+        "owner": "Business",
+        "priority": "P1"
+      },
+      {
+        "time": "6-24h",
+        "title": "Initiate system restoration from backups",
+        "owner": "Operations",
+        "priority": "P1"
+      }
+    ],
+    "attachments": []
+  }
+]

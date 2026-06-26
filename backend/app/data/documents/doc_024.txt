@@ -1,0 +1,4 @@
+Title: Playbook Document 024: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_024
+Content: Employee SSN Leaked document: Isolate HR database, offer identity theft protection services, issue formal notice letter, audit internal HR database access.

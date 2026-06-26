@@ -1,0 +1,4 @@
+Title: Playbook Document 087: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_087
+Content: Board Briefing guidelines: Summarize incident, outline business impact, list mitigation steps, present legal/reputational risks.

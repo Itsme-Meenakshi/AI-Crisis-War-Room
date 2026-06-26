@@ -1,0 +1,4 @@
+Title: Playbook Document 100: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_100
+Content: Public Relations Holding Statements: Standard templates for cyber attacks, outages, recalls, executive changes.

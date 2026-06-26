@@ -1,0 +1,4 @@
+Title: Playbook Document 025: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_025
+Content: Source Code Theft playbook: Audit GitHub repository access, rotate all hardcoded API keys, scan code for intellectual property markers.

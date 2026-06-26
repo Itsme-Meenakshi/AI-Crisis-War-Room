@@ -1,0 +1,1002 @@
+[
+  {
+    "chunk_id": "chunk_0001",
+    "text": "Ransomware Infection response playbook: Isolate affected hosts, block SMB traffic, verify backups, identify strain, prepare decryptor, establish operations checkpoint.",
+    "metadata": {
+      "source": "doc_001.txt",
+      "title": "Playbook Document 001: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_001"
+    }
+  },
+  {
+    "chunk_id": "chunk_0002",
+    "text": "Phishing Attack response checklist: Scan mail server logs, reset compromised credentials, configure MFA rules, run email containment scripts, notify users.",
+    "metadata": {
+      "source": "doc_002.txt",
+      "title": "Playbook Document 002: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_002"
+    }
+  },
+  {
+    "chunk_id": "chunk_0003",
+    "text": "SQL Injection exploit remediation: Review application logs, identify vulnerable endpoints, sanitize queries using parameterized parameters, patch database permissions.",
+    "metadata": {
+      "source": "doc_003.txt",
+      "title": "Playbook Document 003: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_003"
+    }
+  },
+  {
+    "chunk_id": "chunk_0004",
+    "text": "DDoS Attack mitigation: Route traffic through scrubbers, configure rate limits, block malicious IPs, coordinate with upstream ISPs, implement CDN caching.",
+    "metadata": {
+      "source": "doc_004.txt",
+      "title": "Playbook Document 004: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_004"
+    }
+  },
+  {
+    "chunk_id": "chunk_0005",
+    "text": "Insider Threat containment guidelines: Revoke account access keys, review active sessions, audit file access logs, coordinate with HR and legal counsel.",
+    "metadata": {
+      "source": "doc_005.txt",
+      "title": "Playbook Document 005: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_005"
+    }
+  },
+  {
+    "chunk_id": "chunk_0006",
+    "text": "API Security Exploit response: Revoke compromised API keys, rate limit endpoint, implement JWT validation checks, audit recent requests for data leakage.",
+    "metadata": {
+      "source": "doc_006.txt",
+      "title": "Playbook Document 006: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_006"
+    }
+  },
+  {
+    "chunk_id": "chunk_0007",
+    "text": "Supply Chain Software exploit: Identify vendor dependency, verify file checksums, rollback to last secure version, audit internal build pipelines.",
+    "metadata": {
+      "source": "doc_007.txt",
+      "title": "Playbook Document 007: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_007"
+    }
+  },
+  {
+    "chunk_id": "chunk_0008",
+    "text": "Zero-day Exploit emergency patch: Configure Web Application Firewall (WAF) rule to block payload, contact software vendor, isolate impacted systems.",
+    "metadata": {
+      "source": "doc_008.txt",
+      "title": "Playbook Document 008: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_008"
+    }
+  },
+  {
+    "chunk_id": "chunk_0009",
+    "text": "Unauthorized Server Access response: Revoke SSH keys, analyze system auth logs, reinstall compromised system images, audit administrative access routes.",
+    "metadata": {
+      "source": "doc_009.txt",
+      "title": "Playbook Document 009: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_009"
+    }
+  },
+  {
+    "chunk_id": "chunk_0010",
+    "text": "Session Hijacking mitigation: Shorten session token lifetimes, force token resets, implement user-agent validation, audit cookie configuration flags.",
+    "metadata": {
+      "source": "doc_010.txt",
+      "title": "Playbook Document 010: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_010"
+    }
+  },
+  {
+    "chunk_id": "chunk_0011",
+    "text": "Malware outbreak playbook: Run endpoint detection and response (EDR) scans, quarantine infected assets, inspect network traffic for command and control (C2).",
+    "metadata": {
+      "source": "doc_011.txt",
+      "title": "Playbook Document 011: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_011"
+    }
+  },
+  {
+    "chunk_id": "chunk_0012",
+    "text": "Key/Secret Exposure response: Rotate leaked credentials on cloud services, audit cloud trail logs for unauthorized actions, update configuration variables.",
+    "metadata": {
+      "source": "doc_012.txt",
+      "title": "Playbook Document 012: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_012"
+    }
+  },
+  {
+    "chunk_id": "chunk_0013",
+    "text": "Brute Force attack defense: Implement account lockout policy, set up IP-based rate limiting, configure CAPTCHA, notify targeted users of login attempts.",
+    "metadata": {
+      "source": "doc_013.txt",
+      "title": "Playbook Document 013: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_013"
+    }
+  },
+  {
+    "chunk_id": "chunk_0014",
+    "text": "Logic Bomb investigation: Review source code commits, verify author credentials, isolate system containing suspicious code, run rollback scripts.",
+    "metadata": {
+      "source": "doc_014.txt",
+      "title": "Playbook Document 014: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_014"
+    }
+  },
+  {
+    "chunk_id": "chunk_0015",
+    "text": "Domain Hijacking recovery: Contact domain registrar, verify DNS records, reset registrar account credentials, activate registry lock services.",
+    "metadata": {
+      "source": "doc_015.txt",
+      "title": "Playbook Document 015: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_015"
+    }
+  },
+  {
+    "chunk_id": "chunk_0016",
+    "text": "Cloud Storage Bucket Exposure response: Set bucket permissions to private, review bucket access logs for downloads, check search indexes for leaks.",
+    "metadata": {
+      "source": "doc_016.txt",
+      "title": "Playbook Document 016: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_016"
+    }
+  },
+  {
+    "chunk_id": "chunk_0017",
+    "text": "SSL/TLS Certificate Expiration recovery: Generate new certificate signing request (CSR), deploy cert to load balancers, audit certificate expiry monitoring.",
+    "metadata": {
+      "source": "doc_017.txt",
+      "title": "Playbook Document 017: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_017"
+    }
+  },
+  {
+    "chunk_id": "chunk_0018",
+    "text": "Router/Switch Compromise guide: Reset device admin credentials, load last verified firmware image, review routing tables, inspect device syslog.",
+    "metadata": {
+      "source": "doc_018.txt",
+      "title": "Playbook Document 018: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_018"
+    }
+  },
+  {
+    "chunk_id": "chunk_0019",
+    "text": "Credential Stuffing incident response: Force password reset for impacted user accounts, block automated traffic, send security notification emails.",
+    "metadata": {
+      "source": "doc_019.txt",
+      "title": "Playbook Document 019: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_019"
+    }
+  },
+  {
+    "chunk_id": "chunk_0020",
+    "text": "Man-in-the-Middle attack mitigation: Force HTTPS encryption, check local network ARP tables for spoofing, install corporate network monitoring tools.",
+    "metadata": {
+      "source": "doc_020.txt",
+      "title": "Playbook Document 020: Cybersecurity Guide",
+      "category": "Cybersecurity",
+      "doc_id": "doc_020"
+    }
+  },
+  {
+    "chunk_id": "chunk_0021",
+    "text": "Customer PII Exposure guidelines: Conduct forensic investigation, assess number of records leaked, prepare database containment, notify regulatory bodies.",
+    "metadata": {
+      "source": "doc_021.txt",
+      "title": "Playbook Document 021: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_021"
+    }
+  },
+  {
+    "chunk_id": "chunk_0022",
+    "text": "Credit Card Data Leak protocol: Notify merchant processor, engage PCI forensic investigator, rotate encryption keys, inform affected consumers.",
+    "metadata": {
+      "source": "doc_022.txt",
+      "title": "Playbook Document 022: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_022"
+    }
+  },
+  {
+    "chunk_id": "chunk_0023",
+    "text": "Health Records Exposure response: Verify HIPAA disclosure requirements, report leak to HHS within required timeline, establish toll-free customer hotline.",
+    "metadata": {
+      "source": "doc_023.txt",
+      "title": "Playbook Document 023: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_023"
+    }
+  },
+  {
+    "chunk_id": "chunk_0024",
+    "text": "Employee SSN Leaked document: Isolate HR database, offer identity theft protection services, issue formal notice letter, audit internal HR database access.",
+    "metadata": {
+      "source": "doc_024.txt",
+      "title": "Playbook Document 024: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_024"
+    }
+  },
+  {
+    "chunk_id": "chunk_0025",
+    "text": "Source Code Theft playbook: Audit GitHub repository access, rotate all hardcoded API keys, scan code for intellectual property markers.",
+    "metadata": {
+      "source": "doc_025.txt",
+      "title": "Playbook Document 025: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_025"
+    }
+  },
+  {
+    "chunk_id": "chunk_0026",
+    "text": "Tax Records Exposure guidelines: Audit payroll systems, notify state/federal tax agencies, offer tax fraud protection monitoring to affected employees.",
+    "metadata": {
+      "source": "doc_026.txt",
+      "title": "Playbook Document 026: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_026"
+    }
+  },
+  {
+    "chunk_id": "chunk_0027",
+    "text": "CRM System Breach response: Audit Salesforce logs, review export histories, revoke unauthorized integration tokens, notify account managers.",
+    "metadata": {
+      "source": "doc_027.txt",
+      "title": "Playbook Document 027: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_027"
+    }
+  },
+  {
+    "chunk_id": "chunk_0028",
+    "text": "Password Database Leak action plan: Force password reset for all users, update password hashing algorithm to bcrypt, write client warning notification.",
+    "metadata": {
+      "source": "doc_028.txt",
+      "title": "Playbook Document 028: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_028"
+    }
+  },
+  {
+    "chunk_id": "chunk_0029",
+    "text": "Marketing Email List Leak guidelines: Review marketing system access logs, verify unsubscribe lists, notify subscribers of email spoofing risk.",
+    "metadata": {
+      "source": "doc_029.txt",
+      "title": "Playbook Document 029: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_029"
+    }
+  },
+  {
+    "chunk_id": "chunk_0030",
+    "text": "Lost Physical Backup Drive protocol: Verify encryption status of disk, identify file categories on drive, report loss to compliance officer.",
+    "metadata": {
+      "source": "doc_030.txt",
+      "title": "Playbook Document 030: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_030"
+    }
+  },
+  {
+    "chunk_id": "chunk_0031",
+    "text": "Dark Web Database Dump verification: Fetch sample dump, compare schemas with live database, identify leak timeframe, audit database write logs.",
+    "metadata": {
+      "source": "doc_031.txt",
+      "title": "Playbook Document 031: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_031"
+    }
+  },
+  {
+    "chunk_id": "chunk_0032",
+    "text": "Client Billing Information Leak response: Mask bank account digits, revoke administrative tokens, inform corporate clients, review payment service logs.",
+    "metadata": {
+      "source": "doc_032.txt",
+      "title": "Playbook Document 032: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_032"
+    }
+  },
+  {
+    "chunk_id": "chunk_0033",
+    "text": "Proprietary Business Secret Theft guidelines: Revoke employee permissions, audit document access logs, coordinate with litigation legal counsel.",
+    "metadata": {
+      "source": "doc_033.txt",
+      "title": "Playbook Document 033: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_033"
+    }
+  },
+  {
+    "chunk_id": "chunk_0034",
+    "text": "Executive Payroll Data exposure response: Lock HR software, notify impacted executives, review executive login histories, check payroll export rules.",
+    "metadata": {
+      "source": "doc_034.txt",
+      "title": "Playbook Document 034: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_034"
+    }
+  },
+  {
+    "chunk_id": "chunk_0035",
+    "text": "Vendor Data Exposure notification process: Identify which third-party systems were compromised, review data sharing contracts, request vendor security audit.",
+    "metadata": {
+      "source": "doc_035.txt",
+      "title": "Playbook Document 035: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_035"
+    }
+  },
+  {
+    "chunk_id": "chunk_0036",
+    "text": "Data Sanitization failure response: Identify disposed hardware, review drive wiping logs, audit hardware disposal contracts, check data privacy regulations.",
+    "metadata": {
+      "source": "doc_036.txt",
+      "title": "Playbook Document 036: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_036"
+    }
+  },
+  {
+    "chunk_id": "chunk_0037",
+    "text": "Web Form Data Leak remediation: Inspect web server logs, fix HTML form parameters, sanitize public server variables, alert affected users.",
+    "metadata": {
+      "source": "doc_037.txt",
+      "title": "Playbook Document 037: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_037"
+    }
+  },
+  {
+    "chunk_id": "chunk_0038",
+    "text": "Mobile App Log Leak guidelines: Review logging configurations, release urgent app store patch, force update on app clients, audit logs for PII.",
+    "metadata": {
+      "source": "doc_038.txt",
+      "title": "Playbook Document 038: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_038"
+    }
+  },
+  {
+    "chunk_id": "chunk_0039",
+    "text": "API Response Data Leaks audit: Check JSON output sanitization rules, filter nested schemas, implement fields level access control keys.",
+    "metadata": {
+      "source": "doc_039.txt",
+      "title": "Playbook Document 039: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_039"
+    }
+  },
+  {
+    "chunk_id": "chunk_0040",
+    "text": "Contract Database Exposure protocol: Seal sharepoint site permissions, review contract download counts, check external file sharing settings.",
+    "metadata": {
+      "source": "doc_040.txt",
+      "title": "Playbook Document 040: Data_Breach Guide",
+      "category": "Data_Breach",
+      "doc_id": "doc_040"
+    }
+  },
+  {
+    "chunk_id": "chunk_0041",
+    "text": "DNS Resolution Failure playbook: Switch to secondary provider, flush local DNS caches, verify zone files, monitor TTL expiration cycles.",
+    "metadata": {
+      "source": "doc_041.txt",
+      "title": "Playbook Document 041: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_041"
+    }
+  },
+  {
+    "chunk_id": "chunk_0042",
+    "text": "Primary Database Crash response: Verify replication lag, promote read-replica to primary, restart database instances, run file system consistency check.",
+    "metadata": {
+      "source": "doc_042.txt",
+      "title": "Playbook Document 042: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_042"
+    }
+  },
+  {
+    "chunk_id": "chunk_0043",
+    "text": "Cloud Provider Region Outage: Trigger DNS failover to backup region, verify multi-region database replication, start standby app servers.",
+    "metadata": {
+      "source": "doc_043.txt",
+      "title": "Playbook Document 043: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_043"
+    }
+  },
+  {
+    "chunk_id": "chunk_0044",
+    "text": "ISP Datacenter Network Outage: Route network traffic through alternate fiber line, coordinate with BGP routing provider, monitor latency stats.",
+    "metadata": {
+      "source": "doc_044.txt",
+      "title": "Playbook Document 044: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_044"
+    }
+  },
+  {
+    "chunk_id": "chunk_0045",
+    "text": "Power Outage in Datacenter protocol: Verify generator fuel levels, inspect UPS battery systems, shut down non-critical servers, monitor temperature.",
+    "metadata": {
+      "source": "doc_045.txt",
+      "title": "Playbook Document 045: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_045"
+    }
+  },
+  {
+    "chunk_id": "chunk_0046",
+    "text": "Content Delivery Network (CDN) Outage: Update DNS to bypass CDN, route requests directly to origin servers, implement client rate limits.",
+    "metadata": {
+      "source": "doc_046.txt",
+      "title": "Playbook Document 046: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_046"
+    }
+  },
+  {
+    "chunk_id": "chunk_0047",
+    "text": "Message Queue Consumer Lock recovery: Clear dead letter queue, restart queue consumer worker nodes, scale up consumer instances.",
+    "metadata": {
+      "source": "doc_047.txt",
+      "title": "Playbook Document 047: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_047"
+    }
+  },
+  {
+    "chunk_id": "chunk_0048",
+    "text": "Caching Server Memory Leak fix: Flush Redis cache, allocate more memory resources, restart cache instances, optimize cache eviction policy.",
+    "metadata": {
+      "source": "doc_048.txt",
+      "title": "Playbook Document 048: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_048"
+    }
+  },
+  {
+    "chunk_id": "chunk_0049",
+    "text": "Storage Cluster Disk Corruption: Run storage repair script, replace failed NVMe drives, rebuild RAID array, verify backup snapshot integrity.",
+    "metadata": {
+      "source": "doc_049.txt",
+      "title": "Playbook Document 049: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_049"
+    }
+  },
+  {
+    "chunk_id": "chunk_0050",
+    "text": "Load Balancer Crash response: Re-route traffic to secondary load balancer, check load balancer health checks, review active connection count.",
+    "metadata": {
+      "source": "doc_050.txt",
+      "title": "Playbook Document 050: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_050"
+    }
+  },
+  {
+    "chunk_id": "chunk_0051",
+    "text": "Auto-Scale Failure recovery: Manually provision server instances, audit cloud provider quota limit, review auto-scaling CPU metric thresholds.",
+    "metadata": {
+      "source": "doc_051.txt",
+      "title": "Playbook Document 051: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_051"
+    }
+  },
+  {
+    "chunk_id": "chunk_0052",
+    "text": "Third-Party Authentication API Down: Enable fallback local logins, display downtime banner, retry auth requests with backoff.",
+    "metadata": {
+      "source": "doc_052.txt",
+      "title": "Playbook Document 052: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_052"
+    }
+  },
+  {
+    "chunk_id": "chunk_0053",
+    "text": "Server CPU Overload incident: Terminate runaway processes, scale up server specs, restrict heavy API endpoints, review application profiling.",
+    "metadata": {
+      "source": "doc_053.txt",
+      "title": "Playbook Document 053: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_053"
+    }
+  },
+  {
+    "chunk_id": "chunk_0054",
+    "text": "Microservices Latency Storm fix: Enable circuit breaker rules, configure query timeouts, scale slow service instances, profile network calls.",
+    "metadata": {
+      "source": "doc_054.txt",
+      "title": "Playbook Document 054: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_054"
+    }
+  },
+  {
+    "chunk_id": "chunk_0055",
+    "text": "Database Connection Pool Exhaustion: Increase pool size limits, close idle connections, implement query pagination, verify query indexes.",
+    "metadata": {
+      "source": "doc_055.txt",
+      "title": "Playbook Document 055: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_055"
+    }
+  },
+  {
+    "chunk_id": "chunk_0056",
+    "text": "Payment Gateway API Outage: Queue checkout transactions, display payment alert message, retry transactions asynchronously.",
+    "metadata": {
+      "source": "doc_056.txt",
+      "title": "Playbook Document 056: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_056"
+    }
+  },
+  {
+    "chunk_id": "chunk_0057",
+    "text": "Storage Bucket Access Denied incident: Review AWS IAM policy rules, verify bucket resource policy, refresh API access credentials.",
+    "metadata": {
+      "source": "doc_057.txt",
+      "title": "Playbook Document 057: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_057"
+    }
+  },
+  {
+    "chunk_id": "chunk_0058",
+    "text": "SMTP Email Server Down response: Queue notification emails, switch to fallback email vendor, monitor email delivery backlog.",
+    "metadata": {
+      "source": "doc_058.txt",
+      "title": "Playbook Document 058: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_058"
+    }
+  },
+  {
+    "chunk_id": "chunk_0059",
+    "text": "Container Orchestrator Cluster Down: Restart Kubernetes control plane, check node status, redeploy deployment configs, audit cluster logs.",
+    "metadata": {
+      "source": "doc_059.txt",
+      "title": "Playbook Document 059: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_059"
+    }
+  },
+  {
+    "chunk_id": "chunk_0060",
+    "text": "Search Index Failure response: Rebuild Elasticsearch index, route search requests to database, limit query complex filters.",
+    "metadata": {
+      "source": "doc_060.txt",
+      "title": "Playbook Document 060: Service_Outage Guide",
+      "category": "Service_Outage",
+      "doc_id": "doc_060"
+    }
+  },
+  {
+    "chunk_id": "chunk_0061",
+    "text": "CEO Social Media controversy response: Draft executive statement, brief public relations agency, restrict corporate media posts.",
+    "metadata": {
+      "source": "doc_061.txt",
+      "title": "Playbook Document 061: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_061"
+    }
+  },
+  {
+    "chunk_id": "chunk_0062",
+    "text": "Executive Fraud Charges playbook: Stand up crisis comms committee, coordinate with legal counsel, prepare statement, assign interim leader.",
+    "metadata": {
+      "source": "doc_062.txt",
+      "title": "Playbook Document 062: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_062"
+    }
+  },
+  {
+    "chunk_id": "chunk_0063",
+    "text": "Product Safety Recall procedure: Identify batch numbers, publish recall warning page, notify distributors, establish refund portal.",
+    "metadata": {
+      "source": "doc_063.txt",
+      "title": "Playbook Document 063: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_063"
+    }
+  },
+  {
+    "chunk_id": "chunk_0064",
+    "text": "Activist Boycott coordination: Monitor social media sentiment, draft stakeholder letter, organize roundtable discussion.",
+    "metadata": {
+      "source": "doc_064.txt",
+      "title": "Playbook Document 064: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_064"
+    }
+  },
+  {
+    "chunk_id": "chunk_0065",
+    "text": "Insider Trading Rumors statement: Formulate official denial statement, cooperate with regulatory audit, review internal trading rules.",
+    "metadata": {
+      "source": "doc_065.txt",
+      "title": "Playbook Document 065: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_065"
+    }
+  },
+  {
+    "chunk_id": "chunk_0066",
+    "text": "Toxic Work Culture Expose response: Initiate independent HR investigation, draft employee address letter, outline workplace changes.",
+    "metadata": {
+      "source": "doc_066.txt",
+      "title": "Playbook Document 066: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_066"
+    }
+  },
+  {
+    "chunk_id": "chunk_0067",
+    "text": "Greenwashing Accusations strategy: Publish sustainability audit report, update carbon footprint data, issue clarifying press release.",
+    "metadata": {
+      "source": "doc_067.txt",
+      "title": "Playbook Document 067: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_067"
+    }
+  },
+  {
+    "chunk_id": "chunk_0068",
+    "text": "SLA Breach Lawsuit communications: Restrict internal discussions, draft holding statement, brief customer account managers.",
+    "metadata": {
+      "source": "doc_068.txt",
+      "title": "Playbook Document 068: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_068"
+    }
+  },
+  {
+    "chunk_id": "chunk_0069",
+    "text": "Negative Viral Review mitigation: Contact reviewer, investigate complaint details, post public response, implement product fix.",
+    "metadata": {
+      "source": "doc_069.txt",
+      "title": "Playbook Document 069: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_069"
+    }
+  },
+  {
+    "chunk_id": "chunk_0070",
+    "text": "Product Defect Scandal response: Halt product shipments, investigate QA testing logs, issue replacement warranty statement.",
+    "metadata": {
+      "source": "doc_070.txt",
+      "title": "Playbook Document 070: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_070"
+    }
+  },
+  {
+    "chunk_id": "chunk_0071",
+    "text": "Supply Chain Labor Dispute response: Audit supplier facility, issue corporate vendor code statement, update press statement.",
+    "metadata": {
+      "source": "doc_071.txt",
+      "title": "Playbook Document 071: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_071"
+    }
+  },
+  {
+    "chunk_id": "chunk_0072",
+    "text": "Executive Resignation Scandal protocol: Prepare press release, outline transition plan, brief institutional investors.",
+    "metadata": {
+      "source": "doc_072.txt",
+      "title": "Playbook Document 072: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_072"
+    }
+  },
+  {
+    "chunk_id": "chunk_0073",
+    "text": "Financial Misstatement rumors response: Issue audited balance sheet, schedule press briefing, brief institutional investors.",
+    "metadata": {
+      "source": "doc_073.txt",
+      "title": "Playbook Document 073: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_073"
+    }
+  },
+  {
+    "chunk_id": "chunk_0074",
+    "text": "Customer Service Outrage response: Apologize to users, explain root cause, issue service credits, post technical post-mortem.",
+    "metadata": {
+      "source": "doc_074.txt",
+      "title": "Playbook Document 074: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_074"
+    }
+  },
+  {
+    "chunk_id": "chunk_0075",
+    "text": "Marketing Campaign Backlash response: Withdraw ad materials, publish public apology, review future marketing assets.",
+    "metadata": {
+      "source": "doc_075.txt",
+      "title": "Playbook Document 075: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_075"
+    }
+  },
+  {
+    "chunk_id": "chunk_0076",
+    "text": "Partnership termination scandal: Issue joint termination statement, address supply chain impact, reassure major customers.",
+    "metadata": {
+      "source": "doc_076.txt",
+      "title": "Playbook Document 076: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_076"
+    }
+  },
+  {
+    "chunk_id": "chunk_0077",
+    "text": "Competitor Hostile Attack response: Fact check claims, draft customer support document, monitor industry forum boards.",
+    "metadata": {
+      "source": "doc_077.txt",
+      "title": "Playbook Document 077: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_077"
+    }
+  },
+  {
+    "chunk_id": "chunk_0078",
+    "text": "Regulatory Fine public response: Draft compliance correction plan, publish statement, outline governance enhancements.",
+    "metadata": {
+      "source": "doc_078.txt",
+      "title": "Playbook Document 078: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_078"
+    }
+  },
+  {
+    "chunk_id": "chunk_0079",
+    "text": "Security Disclosure public announcement: Draft vulnerability report, release software patch details, credit security researcher.",
+    "metadata": {
+      "source": "doc_079.txt",
+      "title": "Playbook Document 079: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_079"
+    }
+  },
+  {
+    "chunk_id": "chunk_0080",
+    "text": "Systemic Service Outage apology: Send CEO email apology, offer SLA service refunds, publish full technical post-mortem.",
+    "metadata": {
+      "source": "doc_080.txt",
+      "title": "Playbook Document 080: PR_Reputation Guide",
+      "category": "PR_Reputation",
+      "doc_id": "doc_080"
+    }
+  },
+  {
+    "chunk_id": "chunk_0081",
+    "text": "NIST SP 800-61 incident handler: Incident response phases: Preparation, Detection, Containment, Eradication, Recovery, Post-Incident.",
+    "metadata": {
+      "source": "doc_081.txt",
+      "title": "Playbook Document 081: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_081"
+    }
+  },
+  {
+    "chunk_id": "chunk_0082",
+    "text": "ISO 22301 Business Continuity Standard: Establish business impact analysis, identify critical assets, set recovery time objectives.",
+    "metadata": {
+      "source": "doc_082.txt",
+      "title": "Playbook Document 082: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_082"
+    }
+  },
+  {
+    "chunk_id": "chunk_0083",
+    "text": "Disaster Recovery Planning template: Outline recovery teams, define failover triggers, detail data restore steps, test schedules.",
+    "metadata": {
+      "source": "doc_083.txt",
+      "title": "Playbook Document 083: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_083"
+    }
+  },
+  {
+    "chunk_id": "chunk_0084",
+    "text": "Incident Command System roles: Incident Commander, Public Information Officer, Safety Officer, Operations Section Chief.",
+    "metadata": {
+      "source": "doc_084.txt",
+      "title": "Playbook Document 084: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_084"
+    }
+  },
+  {
+    "chunk_id": "chunk_0085",
+    "text": "Crisis Communications Playbook: Establish media contact list, write template statements, set approval flow, review social media.",
+    "metadata": {
+      "source": "doc_085.txt",
+      "title": "Playbook Document 085: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_085"
+    }
+  },
+  {
+    "chunk_id": "chunk_0086",
+    "text": "Post-Mortem Review template: Document root cause, timeline of events, containment time, corrective actions, prevention plan.",
+    "metadata": {
+      "source": "doc_086.txt",
+      "title": "Playbook Document 086: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_086"
+    }
+  },
+  {
+    "chunk_id": "chunk_0087",
+    "text": "Board Briefing guidelines: Summarize incident, outline business impact, list mitigation steps, present legal/reputational risks.",
+    "metadata": {
+      "source": "doc_087.txt",
+      "title": "Playbook Document 087: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_087"
+    }
+  },
+  {
+    "chunk_id": "chunk_0088",
+    "text": "Regulator Notification rules: GDPR 72-hour reporting rule, identify data types leaked, complete regulatory forms.",
+    "metadata": {
+      "source": "doc_088.txt",
+      "title": "Playbook Document 088: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_088"
+    }
+  },
+  {
+    "chunk_id": "chunk_0089",
+    "text": "Litigation Hold Notice template: Instruct staff to preserve emails, log files, backups, and physical documents.",
+    "metadata": {
+      "source": "doc_089.txt",
+      "title": "Playbook Document 089: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_089"
+    }
+  },
+  {
+    "chunk_id": "chunk_0090",
+    "text": "Emergency Communication tree: Define cascade rules, maintain phone directories, configure SMS alert broadcasts.",
+    "metadata": {
+      "source": "doc_090.txt",
+      "title": "Playbook Document 090: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_090"
+    }
+  },
+  {
+    "chunk_id": "chunk_0091",
+    "text": "Incident Triage Matrix: Define P0 to P3 priority levels based on business impact, system downtime, and data loss severity.",
+    "metadata": {
+      "source": "doc_091.txt",
+      "title": "Playbook Document 091: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_091"
+    }
+  },
+  {
+    "chunk_id": "chunk_0092",
+    "text": "Third-party Vendor Audits checklist: Verify SOC2 compliance, check data encryption at rest, audit network access rules.",
+    "metadata": {
+      "source": "doc_092.txt",
+      "title": "Playbook Document 092: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_092"
+    }
+  },
+  {
+    "chunk_id": "chunk_0093",
+    "text": "Tabletop Crisis Exercise guide: Scenario injects, role play assignments, post-exercise review, update crisis playbooks.",
+    "metadata": {
+      "source": "doc_093.txt",
+      "title": "Playbook Document 093: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_093"
+    }
+  },
+  {
+    "chunk_id": "chunk_0094",
+    "text": "Business Impact Analysis (BIA) guide: Identify revenue loss per hour, estimate regulatory fines, evaluate brand damage.",
+    "metadata": {
+      "source": "doc_094.txt",
+      "title": "Playbook Document 094: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_094"
+    }
+  },
+  {
+    "chunk_id": "chunk_0095",
+    "text": "Eradication and Recovery phase details: Delete malware binaries, rebuild OS from golden image, restore database backup.",
+    "metadata": {
+      "source": "doc_095.txt",
+      "title": "Playbook Document 095: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_095"
+    }
+  },
+  {
+    "chunk_id": "chunk_0096",
+    "text": "Stakeholder Notification timelines: Customers within 48h, board within 4h, media within 12h, insurers within 24h.",
+    "metadata": {
+      "source": "doc_096.txt",
+      "title": "Playbook Document 096: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_096"
+    }
+  },
+  {
+    "chunk_id": "chunk_0097",
+    "text": "Incident Response Team Training plan: Run monthly workshops, practice phishing triage, review latest CVE exploits.",
+    "metadata": {
+      "source": "doc_097.txt",
+      "title": "Playbook Document 097: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_097"
+    }
+  },
+  {
+    "chunk_id": "chunk_0098",
+    "text": "Evidence Preservation standard: Write MD5 hashes of log files, create disk sector images, maintain chain of custody.",
+    "metadata": {
+      "source": "doc_098.txt",
+      "title": "Playbook Document 098: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_098"
+    }
+  },
+  {
+    "chunk_id": "chunk_0099",
+    "text": "Disaster Recovery Test Schedule: Run quarterly failovers to standby datacenter, measure recovery point objectives (RPO).",
+    "metadata": {
+      "source": "doc_099.txt",
+      "title": "Playbook Document 099: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_099"
+    }
+  },
+  {
+    "chunk_id": "chunk_0100",
+    "text": "Public Relations Holding Statements: Standard templates for cyber attacks, outages, recalls, executive changes.",
+    "metadata": {
+      "source": "doc_100.txt",
+      "title": "Playbook Document 100: Frameworks_Guidelines Guide",
+      "category": "Frameworks_Guidelines",
+      "doc_id": "doc_100"
+    }
+  }
+]

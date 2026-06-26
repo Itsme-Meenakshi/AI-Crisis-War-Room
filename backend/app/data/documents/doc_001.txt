@@ -1,0 +1,4 @@
+Title: Playbook Document 001: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_001
+Content: Ransomware Infection response playbook: Isolate affected hosts, block SMB traffic, verify backups, identify strain, prepare decryptor, establish operations checkpoint.

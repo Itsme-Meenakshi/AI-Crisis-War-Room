@@ -1,0 +1,4 @@
+Title: Playbook Document 070: PR_Reputation Guide
+Category: PR_Reputation
+Document ID: doc_070
+Content: Product Defect Scandal response: Halt product shipments, investigate QA testing logs, issue replacement warranty statement.

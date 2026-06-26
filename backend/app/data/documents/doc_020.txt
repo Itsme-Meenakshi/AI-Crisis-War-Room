@@ -1,0 +1,4 @@
+Title: Playbook Document 020: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_020
+Content: Man-in-the-Middle attack mitigation: Force HTTPS encryption, check local network ARP tables for spoofing, install corporate network monitoring tools.

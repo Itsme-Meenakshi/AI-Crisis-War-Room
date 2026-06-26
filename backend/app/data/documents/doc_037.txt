@@ -1,0 +1,4 @@
+Title: Playbook Document 037: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_037
+Content: Web Form Data Leak remediation: Inspect web server logs, fix HTML form parameters, sanitize public server variables, alert affected users.

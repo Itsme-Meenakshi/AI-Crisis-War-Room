@@ -1,0 +1,4 @@
+Title: Playbook Document 060: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_060
+Content: Search Index Failure response: Rebuild Elasticsearch index, route search requests to database, limit query complex filters.

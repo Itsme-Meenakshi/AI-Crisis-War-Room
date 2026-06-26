@@ -1,0 +1,4 @@
+Title: Playbook Document 044: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_044
+Content: ISP Datacenter Network Outage: Route network traffic through alternate fiber line, coordinate with BGP routing provider, monitor latency stats.

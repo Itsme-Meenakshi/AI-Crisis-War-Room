@@ -1,0 +1,4 @@
+Title: Playbook Document 018: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_018
+Content: Router/Switch Compromise guide: Reset device admin credentials, load last verified firmware image, review routing tables, inspect device syslog.

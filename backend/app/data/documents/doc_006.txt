@@ -1,0 +1,4 @@
+Title: Playbook Document 006: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_006
+Content: API Security Exploit response: Revoke compromised API keys, rate limit endpoint, implement JWT validation checks, audit recent requests for data leakage.

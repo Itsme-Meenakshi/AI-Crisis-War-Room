@@ -1,0 +1,4 @@
+Title: Playbook Document 023: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_023
+Content: Health Records Exposure response: Verify HIPAA disclosure requirements, report leak to HHS within required timeline, establish toll-free customer hotline.

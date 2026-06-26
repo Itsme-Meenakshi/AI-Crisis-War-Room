@@ -1,0 +1,4 @@
+Title: Playbook Document 042: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_042
+Content: Primary Database Crash response: Verify replication lag, promote read-replica to primary, restart database instances, run file system consistency check.

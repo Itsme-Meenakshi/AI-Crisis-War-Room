@@ -18,7 +18,9 @@ function HistoryPage() {
   const [q, setQ] = useState("");
   const [filter, setFilter] = useState<"all" | CrisisAnalysis["status"]>("all");
 
-  useEffect(() => setList(loadCrises()), []);
+  useEffect(() => {
+    loadCrises().then(setList);
+  }, []);
 
   const filtered = useMemo(() => {
     return list.filter((c) => {

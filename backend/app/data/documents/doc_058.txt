@@ -1,0 +1,4 @@
+Title: Playbook Document 058: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_058
+Content: SMTP Email Server Down response: Queue notification emails, switch to fallback email vendor, monitor email delivery backlog.

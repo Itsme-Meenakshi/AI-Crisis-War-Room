@@ -1,0 +1,4 @@
+Title: Playbook Document 004: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_004
+Content: DDoS Attack mitigation: Route traffic through scrubbers, configure rate limits, block malicious IPs, coordinate with upstream ISPs, implement CDN caching.

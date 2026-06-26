@@ -1,0 +1,4 @@
+Title: Playbook Document 028: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_028
+Content: Password Database Leak action plan: Force password reset for all users, update password hashing algorithm to bcrypt, write client warning notification.

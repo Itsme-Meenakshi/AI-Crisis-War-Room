@@ -1,0 +1,4 @@
+Title: Playbook Document 013: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_013
+Content: Brute Force attack defense: Implement account lockout policy, set up IP-based rate limiting, configure CAPTCHA, notify targeted users of login attempts.

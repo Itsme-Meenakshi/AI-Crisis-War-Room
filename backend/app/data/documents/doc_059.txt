@@ -1,0 +1,4 @@
+Title: Playbook Document 059: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_059
+Content: Container Orchestrator Cluster Down: Restart Kubernetes control plane, check node status, redeploy deployment configs, audit cluster logs.

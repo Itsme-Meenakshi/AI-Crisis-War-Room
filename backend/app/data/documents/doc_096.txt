@@ -1,0 +1,4 @@
+Title: Playbook Document 096: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_096
+Content: Stakeholder Notification timelines: Customers within 48h, board within 4h, media within 12h, insurers within 24h.

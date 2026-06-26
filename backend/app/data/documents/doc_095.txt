@@ -1,0 +1,4 @@
+Title: Playbook Document 095: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_095
+Content: Eradication and Recovery phase details: Delete malware binaries, rebuild OS from golden image, restore database backup.

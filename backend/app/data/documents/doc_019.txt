@@ -1,0 +1,4 @@
+Title: Playbook Document 019: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_019
+Content: Credential Stuffing incident response: Force password reset for impacted user accounts, block automated traffic, send security notification emails.

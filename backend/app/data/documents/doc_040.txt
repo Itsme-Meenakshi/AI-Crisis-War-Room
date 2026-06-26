@@ -1,0 +1,4 @@
+Title: Playbook Document 040: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_040
+Content: Contract Database Exposure protocol: Seal sharepoint site permissions, review contract download counts, check external file sharing settings.

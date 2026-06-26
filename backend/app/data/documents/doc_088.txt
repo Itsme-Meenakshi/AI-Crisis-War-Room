@@ -1,0 +1,4 @@
+Title: Playbook Document 088: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_088
+Content: Regulator Notification rules: GDPR 72-hour reporting rule, identify data types leaked, complete regulatory forms.

@@ -1,0 +1,4 @@
+Title: Playbook Document 017: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_017
+Content: SSL/TLS Certificate Expiration recovery: Generate new certificate signing request (CSR), deploy cert to load balancers, audit certificate expiry monitoring.

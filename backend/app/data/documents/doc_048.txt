@@ -1,0 +1,4 @@
+Title: Playbook Document 048: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_048
+Content: Caching Server Memory Leak fix: Flush Redis cache, allocate more memory resources, restart cache instances, optimize cache eviction policy.

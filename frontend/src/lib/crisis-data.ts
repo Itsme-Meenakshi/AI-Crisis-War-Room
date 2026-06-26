@@ -42,7 +42,17 @@ export interface CrisisAnalysis {
 
 const STORAGE_KEY = "acwr.crises.v1";
 
-export function loadCrises(): CrisisAnalysis[] {
+export async function loadCrises(): Promise<CrisisAnalysis[]> {
+  try {
+    const response = await fetch("http://localhost:8000/api/crises");
+    if (response.ok) {
+      const data = await response.json();
+      return data as CrisisAnalysis[];
+    }
+  } catch (err) {
+    console.error("Failed to load crises from backend, falling back to localStorage:", err);
+  }
+
   if (typeof window === "undefined") return seed;
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -61,8 +71,19 @@ export function saveCrises(list: CrisisAnalysis[]) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
 }
 
-export function getCrisis(id: string): CrisisAnalysis | undefined {
-  return loadCrises().find((c) => c.id === id);
+export async function getCrisis(id: string): Promise<CrisisAnalysis | undefined> {
+  try {
+    const response = await fetch(`http://localhost:8000/api/crises/${id}`);
+    if (response.ok) {
+      const data = await response.json();
+      return data as CrisisAnalysis;
+    }
+  } catch (err) {
+    console.error(`Failed to fetch crisis ${id} from backend, falling back to localStorage:`, err);
+  }
+
+  const list = await loadCrises();
+  return list.find((c) => c.id === id);
 }
 
 // Deterministic mock "AI" analyzer from description text

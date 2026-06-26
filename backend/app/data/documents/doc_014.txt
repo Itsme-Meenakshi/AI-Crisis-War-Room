@@ -1,0 +1,4 @@
+Title: Playbook Document 014: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_014
+Content: Logic Bomb investigation: Review source code commits, verify author credentials, isolate system containing suspicious code, run rollback scripts.

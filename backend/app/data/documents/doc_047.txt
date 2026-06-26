@@ -1,0 +1,4 @@
+Title: Playbook Document 047: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_047
+Content: Message Queue Consumer Lock recovery: Clear dead letter queue, restart queue consumer worker nodes, scale up consumer instances.

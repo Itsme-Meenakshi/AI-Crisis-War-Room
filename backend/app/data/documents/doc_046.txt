@@ -1,0 +1,4 @@
+Title: Playbook Document 046: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_046
+Content: Content Delivery Network (CDN) Outage: Update DNS to bypass CDN, route requests directly to origin servers, implement client rate limits.

@@ -1,0 +1,4 @@
+Title: Playbook Document 007: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_007
+Content: Supply Chain Software exploit: Identify vendor dependency, verify file checksums, rollback to last secure version, audit internal build pipelines.

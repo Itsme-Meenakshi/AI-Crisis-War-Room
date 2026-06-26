@@ -1,0 +1,4 @@
+Title: Playbook Document 052: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_052
+Content: Third-Party Authentication API Down: Enable fallback local logins, display downtime banner, retry auth requests with backoff.

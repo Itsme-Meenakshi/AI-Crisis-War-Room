@@ -1,0 +1,4 @@
+Title: Playbook Document 005: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_005
+Content: Insider Threat containment guidelines: Revoke account access keys, review active sessions, audit file access logs, coordinate with HR and legal counsel.

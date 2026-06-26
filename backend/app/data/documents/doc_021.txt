@@ -1,0 +1,4 @@
+Title: Playbook Document 021: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_021
+Content: Customer PII Exposure guidelines: Conduct forensic investigation, assess number of records leaked, prepare database containment, notify regulatory bodies.

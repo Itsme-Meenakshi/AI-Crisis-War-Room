@@ -1,0 +1,4 @@
+Title: Playbook Document 057: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_057
+Content: Storage Bucket Access Denied incident: Review AWS IAM policy rules, verify bucket resource policy, refresh API access credentials.

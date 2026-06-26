@@ -1,0 +1,4 @@
+Title: Playbook Document 081: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_081
+Content: NIST SP 800-61 incident handler: Incident response phases: Preparation, Detection, Containment, Eradication, Recovery, Post-Incident.

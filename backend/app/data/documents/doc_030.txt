@@ -1,0 +1,4 @@
+Title: Playbook Document 030: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_030
+Content: Lost Physical Backup Drive protocol: Verify encryption status of disk, identify file categories on drive, report loss to compliance officer.

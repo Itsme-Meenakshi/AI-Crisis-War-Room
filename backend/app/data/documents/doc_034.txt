@@ -1,0 +1,4 @@
+Title: Playbook Document 034: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_034
+Content: Executive Payroll Data exposure response: Lock HR software, notify impacted executives, review executive login histories, check payroll export rules.

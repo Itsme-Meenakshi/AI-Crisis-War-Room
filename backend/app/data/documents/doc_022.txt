@@ -1,0 +1,4 @@
+Title: Playbook Document 022: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_022
+Content: Credit Card Data Leak protocol: Notify merchant processor, engage PCI forensic investigator, rotate encryption keys, inform affected consumers.

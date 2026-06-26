@@ -1,0 +1,4 @@
+Title: Playbook Document 015: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_015
+Content: Domain Hijacking recovery: Contact domain registrar, verify DNS records, reset registrar account credentials, activate registry lock services.

@@ -1,0 +1,4 @@
+Title: Playbook Document 045: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_045
+Content: Power Outage in Datacenter protocol: Verify generator fuel levels, inspect UPS battery systems, shut down non-critical servers, monitor temperature.

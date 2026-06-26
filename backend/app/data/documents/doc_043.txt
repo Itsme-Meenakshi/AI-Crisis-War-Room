@@ -1,0 +1,4 @@
+Title: Playbook Document 043: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_043
+Content: Cloud Provider Region Outage: Trigger DNS failover to backup region, verify multi-region database replication, start standby app servers.

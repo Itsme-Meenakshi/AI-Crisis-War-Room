@@ -1,0 +1,4 @@
+Title: Playbook Document 002: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_002
+Content: Phishing Attack response checklist: Scan mail server logs, reset compromised credentials, configure MFA rules, run email containment scripts, notify users.

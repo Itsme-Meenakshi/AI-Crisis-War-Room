@@ -23,7 +23,7 @@ function AnalysisPage() {
   const [tab, setTab] = useState<Perspective>("Business");
 
   useEffect(() => {
-    setCrisis(getCrisis(id) ?? null);
+    getCrisis(id).then((c) => setCrisis(c ?? null));
   }, [id]);
 
   if (!crisis) {

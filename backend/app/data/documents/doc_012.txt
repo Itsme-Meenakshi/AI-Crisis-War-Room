@@ -1,0 +1,4 @@
+Title: Playbook Document 012: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_012
+Content: Key/Secret Exposure response: Rotate leaked credentials on cloud services, audit cloud trail logs for unauthorized actions, update configuration variables.

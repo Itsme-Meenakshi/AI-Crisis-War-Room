@@ -1,0 +1,4 @@
+Title: Playbook Document 008: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_008
+Content: Zero-day Exploit emergency patch: Configure Web Application Firewall (WAF) rule to block payload, contact software vendor, isolate impacted systems.

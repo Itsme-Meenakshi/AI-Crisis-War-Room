@@ -1,0 +1,4 @@
+Title: Playbook Document 016: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_016
+Content: Cloud Storage Bucket Exposure response: Set bucket permissions to private, review bucket access logs for downloads, check search indexes for leaks.

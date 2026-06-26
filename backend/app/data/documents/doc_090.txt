@@ -1,0 +1,4 @@
+Title: Playbook Document 090: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_090
+Content: Emergency Communication tree: Define cascade rules, maintain phone directories, configure SMS alert broadcasts.

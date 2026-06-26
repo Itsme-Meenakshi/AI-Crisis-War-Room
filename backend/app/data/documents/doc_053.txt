@@ -1,0 +1,4 @@
+Title: Playbook Document 053: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_053
+Content: Server CPU Overload incident: Terminate runaway processes, scale up server specs, restrict heavy API endpoints, review application profiling.

@@ -1,0 +1,4 @@
+Title: Playbook Document 074: PR_Reputation Guide
+Category: PR_Reputation
+Document ID: doc_074
+Content: Customer Service Outrage response: Apologize to users, explain root cause, issue service credits, post technical post-mortem.

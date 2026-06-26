@@ -1,0 +1,4 @@
+Title: Playbook Document 003: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_003
+Content: SQL Injection exploit remediation: Review application logs, identify vulnerable endpoints, sanitize queries using parameterized parameters, patch database permissions.

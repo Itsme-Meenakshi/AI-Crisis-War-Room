@@ -1,0 +1,4 @@
+Title: Playbook Document 084: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_084
+Content: Incident Command System roles: Incident Commander, Public Information Officer, Safety Officer, Operations Section Chief.

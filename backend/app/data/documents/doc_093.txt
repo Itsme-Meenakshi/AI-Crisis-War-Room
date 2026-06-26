@@ -1,0 +1,4 @@
+Title: Playbook Document 093: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_093
+Content: Tabletop Crisis Exercise guide: Scenario injects, role play assignments, post-exercise review, update crisis playbooks.

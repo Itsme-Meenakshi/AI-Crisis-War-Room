@@ -1,0 +1,4 @@
+Title: Playbook Document 069: PR_Reputation Guide
+Category: PR_Reputation
+Document ID: doc_069
+Content: Negative Viral Review mitigation: Contact reviewer, investigate complaint details, post public response, implement product fix.

@@ -1,0 +1,4 @@
+Title: Playbook Document 082: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_082
+Content: ISO 22301 Business Continuity Standard: Establish business impact analysis, identify critical assets, set recovery time objectives.

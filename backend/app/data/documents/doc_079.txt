@@ -1,0 +1,4 @@
+Title: Playbook Document 079: PR_Reputation Guide
+Category: PR_Reputation
+Document ID: doc_079
+Content: Security Disclosure public announcement: Draft vulnerability report, release software patch details, credit security researcher.

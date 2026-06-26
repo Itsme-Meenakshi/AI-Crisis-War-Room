@@ -1,0 +1,4 @@
+Title: Playbook Document 080: PR_Reputation Guide
+Category: PR_Reputation
+Document ID: doc_080
+Content: Systemic Service Outage apology: Send CEO email apology, offer SLA service refunds, publish full technical post-mortem.

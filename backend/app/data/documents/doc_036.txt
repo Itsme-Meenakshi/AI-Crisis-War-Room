@@ -1,0 +1,4 @@
+Title: Playbook Document 036: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_036
+Content: Data Sanitization failure response: Identify disposed hardware, review drive wiping logs, audit hardware disposal contracts, check data privacy regulations.

@@ -1,0 +1,4 @@
+Title: Playbook Document 029: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_029
+Content: Marketing Email List Leak guidelines: Review marketing system access logs, verify unsubscribe lists, notify subscribers of email spoofing risk.

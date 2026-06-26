@@ -1,0 +1,4 @@
+Title: Playbook Document 097: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_097
+Content: Incident Response Team Training plan: Run monthly workshops, practice phishing triage, review latest CVE exploits.

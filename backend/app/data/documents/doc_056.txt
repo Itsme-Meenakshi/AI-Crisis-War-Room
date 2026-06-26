@@ -1,0 +1,4 @@
+Title: Playbook Document 056: Service_Outage Guide
+Category: Service_Outage
+Document ID: doc_056
+Content: Payment Gateway API Outage: Queue checkout transactions, display payment alert message, retry transactions asynchronously.

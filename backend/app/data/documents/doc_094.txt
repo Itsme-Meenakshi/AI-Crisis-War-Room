@@ -1,0 +1,4 @@
+Title: Playbook Document 094: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_094
+Content: Business Impact Analysis (BIA) guide: Identify revenue loss per hour, estimate regulatory fines, evaluate brand damage.

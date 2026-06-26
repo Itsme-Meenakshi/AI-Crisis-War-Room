@@ -1,0 +1,4 @@
+Title: Playbook Document 026: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_026
+Content: Tax Records Exposure guidelines: Audit payroll systems, notify state/federal tax agencies, offer tax fraud protection monitoring to affected employees.

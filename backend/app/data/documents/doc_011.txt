@@ -1,0 +1,4 @@
+Title: Playbook Document 011: Cybersecurity Guide
+Category: Cybersecurity
+Document ID: doc_011
+Content: Malware outbreak playbook: Run endpoint detection and response (EDR) scans, quarantine infected assets, inspect network traffic for command and control (C2).

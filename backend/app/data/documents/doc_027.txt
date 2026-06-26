@@ -1,0 +1,4 @@
+Title: Playbook Document 027: Data_Breach Guide
+Category: Data_Breach
+Document ID: doc_027
+Content: CRM System Breach response: Audit Salesforce logs, review export histories, revoke unauthorized integration tokens, notify account managers.

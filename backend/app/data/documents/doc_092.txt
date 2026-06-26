@@ -1,0 +1,4 @@
+Title: Playbook Document 092: Frameworks_Guidelines Guide
+Category: Frameworks_Guidelines
+Document ID: doc_092
+Content: Third-party Vendor Audits checklist: Verify SOC2 compliance, check data encryption at rest, audit network access rules.
