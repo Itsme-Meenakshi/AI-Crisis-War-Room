@@ -9,8 +9,8 @@ export function Brand({ collapsed = false }: { collapsed?: boolean }) {
       </div>
       {!collapsed && (
         <div className="leading-tight">
-          <div className="text-[13px] font-semibold tracking-tight">War Room</div>
-          <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">AI Crisis OS</div>
+          <div className="text-[13px] font-semibold tracking-tight">AI Crisis War Room</div>
+          <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">Crisis Management OS</div>
         </div>
       )}
     </div>

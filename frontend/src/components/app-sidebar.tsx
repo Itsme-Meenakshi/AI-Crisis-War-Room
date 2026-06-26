@@ -27,8 +27,8 @@ export function AppSidebar() {
         </div>
         {open && (
           <div className="min-w-0">
-            <div className="truncate text-sm font-semibold">War Room</div>
-            <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">Crisis OS</div>
+            <div className="text-[13px] font-semibold tracking-tight">AI Crisis War Room</div>
+            <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">Crisis Management OS</div>
           </div>
         )}
       </div>

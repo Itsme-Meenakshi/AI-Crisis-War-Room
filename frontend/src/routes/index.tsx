@@ -6,12 +6,6 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Sign in — AI Crisis War Room" },
-      { name: "description", content: "Sign in to the AI Crisis War Room platform." },
-    ],
-  }),
   component: SignIn,
 });
 
@@ -37,20 +31,21 @@ function SignIn() {
             <Shield className="h-5 w-5 text-accent" />
           </div>
           <div className="leading-tight">
-            <div className="text-sm font-semibold">War Room</div>
-            <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">AI Crisis OS</div>
+            <div className="text-sm font-semibold">AI Crisis War Room</div>
+            <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Crisis Management OS</div>
           </div>
         </div>
 
         <div className="relative space-y-8">
           <div>
-            <div className="text-[10px] uppercase tracking-[0.25em] text-accent">Enterprise</div>
+            <div className="text-[10px] uppercase tracking-[0.25em] text-accent">AI-Powered</div>
             <h1 className="mt-3 max-w-md text-4xl font-semibold leading-[1.05] tracking-tight text-grad">
-              Command center for the first 72 hours.
+              Command center for crisis response.
             </h1>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
-              Describe the situation. Get severity scoring, stakeholder impact, risk
+              Describe the crisis. Get severity scoring, stakeholder impact, risk
               modeling, and a prioritized response plan — across business, PR, legal, and ops.
+              Powered by Multi-Agent AI and RAG.
             </p>
           </div>
 
@@ -69,7 +64,7 @@ function SignIn() {
         </div>
 
         <div className="relative text-[11px] text-muted-foreground">
-          SOC 2 · ISO 27001 · Audit-logged
+          Multi-Agent AI · RAG-powered · LangGraph Workflow
         </div>
       </div>
 
@@ -81,28 +76,28 @@ function SignIn() {
               <div className="grid h-9 w-9 place-items-center rounded-md border border-border bg-secondary">
                 <Shield className="h-4 w-4 text-accent" />
               </div>
-              <div className="text-sm font-semibold">War Room</div>
+              <div className="text-sm font-semibold">AI Crisis War Room</div>
             </div>
           </div>
 
           <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
             Secure access
           </div>
-          <h2 className="mt-2 text-2xl font-semibold tracking-tight">Sign in to your war room</h2>
+          <h2 className="mt-2 text-2xl font-semibold tracking-tight">Sign in to War Room</h2>
           <p className="mt-1.5 text-sm text-muted-foreground">
-            Use your corporate credentials to continue.
+            Enter your credentials to access the crisis dashboard.
           </p>
 
           <form onSubmit={submit} className="mt-8 space-y-4">
             <div className="space-y-1.5">
-              <Label htmlFor="email" className="text-xs">Work email</Label>
+              <Label htmlFor="email" className="text-xs">Email</Label>
               <Input
                 id="email"
                 type="email"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="lead@company.com"
+                placeholder="you@example.com"
                 className="h-10 bg-secondary/40"
               />
             </div>
@@ -123,7 +118,7 @@ function SignIn() {
             </div>
 
             <Button type="submit" className="group h-10 w-full bg-accent text-accent-foreground hover:bg-accent/90">
-              Enter war room
+              Enter War Room
               <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </Button>
           </form>
@@ -138,7 +133,7 @@ function SignIn() {
             onClick={() => navigate({ to: "/dashboard" })}
             className="mt-6 w-full rounded-md border border-border bg-secondary/40 px-4 py-2.5 text-sm font-medium hover:bg-secondary"
           >
-            Continue with SSO
+            Continue with Google
           </button>
 
           <p className="mt-8 text-center text-[11px] text-muted-foreground">
