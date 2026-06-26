@@ -541,5 +541,134 @@
       }
     ],
     "attachments": []
+  },
+  {
+    "id": "c_0442d62",
+    "title": "Database Server Leak",
+    "description": "Our user passwords database has been compromised and posted online.",
+    "createdAt": "2026-06-26T19:53:35.371Z",
+    "status": "active",
+    "severity": 95,
+    "category": "Cybersecurity",
+    "stakeholders": [
+      {
+        "name": "Customers",
+        "impact": 75,
+        "sentiment": "negative"
+      },
+      {
+        "name": "Regulators",
+        "impact": 75,
+        "sentiment": "negative"
+      },
+      {
+        "name": "Legal",
+        "impact": 75,
+        "sentiment": "negative"
+      },
+      {
+        "name": "Employees",
+        "impact": 75,
+        "sentiment": "negative"
+      }
+    ],
+    "risks": [
+      {
+        "category": "Financial",
+        "likelihood": 75,
+        "impact": 70
+      },
+      {
+        "category": "Reputation",
+        "likelihood": 85,
+        "impact": 80
+      },
+      {
+        "category": "Legal",
+        "likelihood": 60,
+        "impact": 75
+      },
+      {
+        "category": "Operational",
+        "likelihood": 65,
+        "impact": 60
+      },
+      {
+        "category": "Compliance",
+        "likelihood": 50,
+        "impact": 70
+      }
+    ],
+    "perspectives": [
+      {
+        "perspective": "Business",
+        "summary": "This database server leak presents significant financial and revenue exposure from potential regulatory fines and eroded customer trust leading to churn, compounded by immediate SLA penalties if not swiftly addressed through forced password resets for all users, client warning notifications, and an update to the password hashing algorithm.",
+        "recommendations": [
+          "Brief the executive leadership team within 1 hour",
+          "Assess financial exposure from contract SLAs",
+          "Establish customer retention communications"
+        ]
+      },
+      {
+        "perspective": "PR",
+        "summary": "Public sentiment is trending negative and a factual, empathetic holding statement must be issued within two hours to control the narrative. Spokespersons should be briefed on approved talking points and sentiment should be monitored hourly across news, social media, and customer support channels.",
+        "recommendations": [
+          "Publish verified holding statement to media channels",
+          "Brief customer-facing staff on talking points",
+          "Monitor public sentiment across news and social media"
+        ]
+      },
+      {
+        "perspective": "Legal",
+        "summary": "The leaked user password database triggers immediate regulatory disclosure obligations under GDPR and potentially other privacy laws, given the personal nature of user credentials, alongside significant contractual liabilities stemming from service agreements and a high risk of class-action lawsuits. An immediate legal hold must be issued to preserve all server logs, incident response communications, and related evidence, while all personnel should be instructed to cease external and non-essential internal communications regarding the incident.",
+        "recommendations": [
+          "Issue a internal litigation/evidence hold notice",
+          "Engage outside legal counsel for regulatory advice",
+          "Draft disclosure documentation templates"
+        ]
+      },
+      {
+        "perspective": "Operations",
+        "summary": "Immediate technical containment is the top priority \u2014 isolate affected systems and block lateral movement. An incident command post should be established with 30-minute status checkpoints to track root-cause identification and validate backup integrity before initiating any restoration procedures.",
+        "recommendations": [
+          "Activate technical incident command post",
+          "Isolate affected servers and networks",
+          "Verify backup integrity and data restore pipelines"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "time": "0-1h",
+        "title": "Activate war room & assign roles",
+        "owner": "Operations",
+        "priority": "P0"
+      },
+      {
+        "time": "0-2h",
+        "title": "Issue public holding statement",
+        "owner": "PR",
+        "priority": "P0"
+      },
+      {
+        "time": "1-3h",
+        "title": "Issue litigation hold & restrict communication",
+        "owner": "Legal",
+        "priority": "P0"
+      },
+      {
+        "time": "2-6h",
+        "title": "Assess customer contract and SLA exposure",
+        "owner": "Business",
+        "priority": "P1"
+      },
+      {
+        "time": "6-24h",
+        "title": "Initiate system restoration from backups",
+        "owner": "Operations",
+        "priority": "P1"
+      }
+    ],
+    "attachments": []
   }
 ]

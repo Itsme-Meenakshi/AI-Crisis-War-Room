@@ -36,6 +36,8 @@ function NewCrisis() {
     setSubmitting(true);
     setErrorMsg(null);
     try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 3 * 60 * 1000); // 3-min timeout
       const response = await fetch("http://localhost:8000/api/analyze", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -44,7 +46,9 @@ function NewCrisis() {
           description: desc,
           files: files.map((f) => ({ name: f.name, size: f.size })),
         }),
+        signal: controller.signal,
       });
+      clearTimeout(timeoutId);
 
       if (!response.ok) {
         const errData = await response.json().catch(() => ({}));
