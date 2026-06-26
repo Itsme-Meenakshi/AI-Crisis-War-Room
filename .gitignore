@@ -1,6 +1,6 @@
 venv/
 __pycache__/
 *.pyc
-
+.env
 backend/app/knowledge_base/chroma_db/
 backend/app/knowledge_base/chunks.json
